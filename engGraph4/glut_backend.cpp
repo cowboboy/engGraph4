@@ -1,10 +1,11 @@
+
 #include <stdio.h>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 
 #include "glut_backend.h"
 
-// =================== unistd.h ============================
+static ICallbacks* s_pCallbacks = NULL;
 
 #pragma once
 
@@ -300,10 +301,6 @@ extern "C" {
 #endif /* _WIN32 */
 
 #endif /* __UNISTD_H_17CD2BD1_839A_4E25_97C7_DE9544B8B59C__ */
-
-// =================================================
-
-static ICallbacks* s_pCallbacks = NULL;
 
 static void SpecialKeyboardCB(int Key, int x, int y){
     s_pCallbacks->SpecialKeyboardCB(Key, x, y);
