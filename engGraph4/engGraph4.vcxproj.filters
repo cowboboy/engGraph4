@@ -25,6 +25,9 @@
     <ClInclude Include="camera.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="cubemap_texture.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
     <ClInclude Include="glut_backend.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -40,10 +43,10 @@
     <ClInclude Include="pipeline.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="shadow_map_fbo.h">
+    <ClInclude Include="skybox.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="shadow_map_technique.h">
+    <ClInclude Include="skybox_technique.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="technique.h">
@@ -58,6 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="camera.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="cubemap_texture.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="glut_backend.cpp">
@@ -78,10 +84,10 @@
     <ClCompile Include="pipeline.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="shadow_map_fbo.cpp">
+    <ClCompile Include="skybox.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="shadow_map_technique.cpp">
+    <ClCompile Include="skybox_technique.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="technique.cpp">
