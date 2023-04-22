@@ -19,32 +19,35 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\Makefile" />
+    <None Include="Makefile" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\callbacks.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\camera.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\engine_common.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\glut_backend.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\lighting_technique.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\math_3d.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\mesh.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\pipeline.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\technique.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\texture.h" />
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\util.h" />
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="lighting_technique.h" />
+    <ClInclude Include="math_3d.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="shadow_map_fbo.h" />
+    <ClInclude Include="shadow_map_technique.h" />
+    <ClInclude Include="technique.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\camera.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\glut_backend.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\lighting_technique.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\main.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\math_3d.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\mesh.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\pipeline.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\technique.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\texture.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="lighting_technique.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="math_3d.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="shadow_map_fbo.cpp" />
+    <ClCompile Include="shadow_map_technique.cpp" />
+    <ClCompile Include="technique.cpp" />
+    <ClCompile Include="texture.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -22,6 +22,7 @@
 #include <stdio.h>
 #include <math.h>
 
+#define M_PI 3.14f
 #define ToRadian(x) ((x) * M_PI / 180.0f)
 #define ToDegree(x) ((x) * 180.0f / M_PI)
 

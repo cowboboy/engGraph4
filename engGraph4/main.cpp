@@ -1,4 +1,4 @@
-#include <math.h>
+﻿#include <math.h>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 
@@ -32,9 +32,9 @@ public:
         m_spotLight.DiffuseIntensity = 0.9f;
         m_spotLight.Color = Vector3f(1.0f, 1.0f, 1.0f);
         m_spotLight.Attenuation.Linear = 0.01f;
-        m_spotLight.Position  = Vector3f(-20.0, 20.0, 5.0f);
+        m_spotLight.Position = Vector3f(-20.0, 20.0, 5.0f);
         m_spotLight.Direction = Vector3f(1.0f, -1.0f, 0.0f);
-        m_spotLight.Cutoff =  20.0f;
+        m_spotLight.Cutoff = 20.0f;
     }
 
     virtual ~Main()
@@ -72,7 +72,7 @@ public:
 
         m_pQuad = new Mesh();
 
-        if (!m_pQuad->LoadMesh("../Content/quad.obj")) {
+        if (!m_pQuad->LoadMesh("../Content/quad_r.obj")) {
             return false;
         }
 
@@ -115,6 +115,9 @@ public:
         glBindFramebuffer(GL_FRAMEBUFFER, 0);
     }
 
+    /*Ïðîõîä ðåíäåðà íà÷èíàåòñÿ ñ î÷èñòêè áóôåðîâ è öâåòà è ãëóáèíû. Ýòè áóôåðû îòíîñÿòñÿ ê ñòàíäàðòíîìó áóôåðó êàäðà.
+      Ìû ãîâîðèì øåéäåðó èñïîëüçîâàòü ìîäóëü òåêñòóðû 0 è ïðèâÿçûâàåì êàðòó òåíåé äëÿ ÷òåíèÿ â ìîäóëå 0.*/
+
     virtual void RenderPass()
     {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -145,9 +148,9 @@ public:
     virtual void KeyboardCB(unsigned char Key, int x, int y)
     {
         switch (Key) {
-            case 'q':
-                glutLeaveMainLoop();
-                break;
+        case 'q':
+            glutLeaveMainLoop();
+            break;
         }
     }
 
@@ -173,6 +176,8 @@ private:
 int main(int argc, char** argv)
 {
     GLUTBackendInit(argc, argv);
+
+    Magick::InitializeMagick(nullptr); // <--- added this line
 
     if (!GLUTBackendCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, 32, false, "OpenGL tutors")) {
         return 1;

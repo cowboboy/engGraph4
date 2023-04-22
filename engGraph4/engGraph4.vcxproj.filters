@@ -16,71 +16,78 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\Makefile">
-      <Filter>Исходные файлы</Filter>
-    </None>
+    <None Include="Makefile" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\callbacks.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="callbacks.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\camera.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="camera.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\engine_common.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="glut_backend.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\glut_backend.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="lighting_technique.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\lighting_technique.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="math_3d.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\math_3d.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="mesh.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\mesh.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="pipeline.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\pipeline.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="shadow_map_fbo.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\technique.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="shadow_map_technique.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\texture.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="technique.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\util.h">
-      <Filter>Исходные файлы</Filter>
+    <ClInclude Include="texture.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\camera.cpp">
+    <ClCompile Include="camera.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\glut_backend.cpp">
+    <ClCompile Include="glut_backend.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\lighting_technique.cpp">
+    <ClCompile Include="lighting_technique.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\math_3d.cpp">
+    <ClCompile Include="math_3d.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\mesh.cpp">
+    <ClCompile Include="mesh.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\pipeline.cpp">
+    <ClCompile Include="pipeline.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\technique.cpp">
+    <ClCompile Include="shadow_map_fbo.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial26\texture.cpp">
+    <ClCompile Include="shadow_map_technique.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="technique.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
