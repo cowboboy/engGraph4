@@ -16,80 +16,86 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\Makefile">
+    <None Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\Makefile">
       <Filter>Исходные файлы</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\callbacks.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\callbacks.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\camera.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\camera.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\glut_backend.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\cubemap_texture.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\lighting_technique.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\glut_backend.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\math_3d.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\lighting_technique.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\mesh.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\math_3d.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\pipeline.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\mesh.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\shadow_map_fbo.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\pipeline.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\shadow_map_technique.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\skybox.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\technique.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\skybox_technique.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\texture.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\technique.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\util.h">
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\texture.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\util.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\camera.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\camera.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\glut_backend.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\cubemap_texture.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\lighting_technique.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\glut_backend.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\main.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\lighting_technique.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\math_3d.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\mesh.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\math_3d.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\pipeline.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\mesh.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\shadow_map_fbo.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\pipeline.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\shadow_map_technique.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\skybox.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\technique.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\skybox_technique.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial24\texture.cpp">
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\technique.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial25\texture.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
